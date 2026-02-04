@@ -1,0 +1,24 @@
+{
+  "name": "navihive-test",
+  "compatibility_date": "2025-01-01",
+  "main": "dist/navihive/index.js",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    // 认证配置
+    "AUTH_ENABLED": "true",
+    "AUTH_REQUIRED_FOR_READ": "false",
+    "AUTH_USERNAME": "snow",
+    "AUTH_PASSWORD": "admin2026A$",
+    "AUTH_SECRET": "admin2027Aa$$"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "navigation-db-local",
+      "database_id": "9b3f8448-19b4-4d47-be8a-4148334914f3"
+    }
+  ]
+}
